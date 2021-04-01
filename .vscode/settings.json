@@ -1,0 +1,19 @@
+{
+    "workbench.colorCustomizations": {},
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "fileheader.cursorMode": {
+      "description": "",
+      "param": "",
+      "return": "",
+      "author": "Jing"
+    },
+    "fileheader.customMade": {
+      "Author": "Jing",
+      "Date": "Do not edit",
+      "LastEditors": "Jing",
+      "LastEditTime": "Do not edit",
+      "Description": ""
+    }
+}

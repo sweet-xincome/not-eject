@@ -1,6 +1,14 @@
+/*
+ * @Author: your name
+ * @Date: 2021-03-31 14:06:58
+ * @LastEditTime: 2021-03-31 16:47:25
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /not-eject/src/index.tsx
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.less';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
