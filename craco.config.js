@@ -1,8 +1,8 @@
 /*
  * @Author: jing
  * @Date: 2021-03-31 14:18:27
- * @LastEditTime: 2021-04-01 15:38:49
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-04-06 14:16:53
+ * @LastEditors: Jing
  * @Description: In User Settings Edit
  * @FilePath: /not-eject/craco.config.js
  */
@@ -37,6 +37,7 @@ const pathResolve = (pathUrl) => path.join(__dirname, pathUrl);
 module.exports = {
   webpack: {
     // 别名配置
+    extensions: ['.ts', '.tsx', '.js', 'config.js', '.json'],
     alias: {
       '@': pathResolve('.'),
       src: pathResolve('src'),
@@ -45,6 +46,7 @@ module.exports = {
       components: pathResolve('src/components'),
       hooks: pathResolve('src/hooks'),
       pages: pathResolve('src/pages'),
+      router: pathResolve('src/router'),
       store: pathResolve('src/store'),
       utils: pathResolve('src/utils'),
       // 此处是一个示例，实际可根据各自需求配置
